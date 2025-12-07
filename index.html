@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nattadon Peerawichakul - Student Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="profile-pic" style="background-image: url('image/Nattadon.png');"></div>
+        <h1>ด.ช. ณัฐดน พีรวิชากูล</h1>
+        <p class="subtitle">ชั้นมัธยมศึกษาปีที่ 2/4 | เลขที่ 25</p>
+        <p id="greeting-msg" class="greeting">ยินดีต้อนรับ</p>
+    </header>
+
+    <div class="container">
+        
+        <div class="section-title">📂 โฟลเดอร์ส่งงานรายวิชา</div>
+        <div class="grid">
+            <a href="https://drive.google.com" target="_blank" class="folder-card">
+                <div class="folder-icon">📁</div>
+                <div class="folder-name">คณิตศาสตร์</div>
+                <div class="folder-info">0 ไฟล์งาน</div>
+            </a>
+            
+            <a href="#" class="folder-card">
+                <div class="folder-icon">📁</div>
+                <div class="folder-name">วิทยาศาสตร์</div>
+                <div class="folder-info">0 ไฟล์งาน</div>
+            </a>
+            
+            <a href="#" class="folder-card">
+                <div class="folder-icon">📁</div>
+                <div class="folder-name">ภาษาอังกฤษ</div>
+                <div class="folder-info">อัปเดตล่าสุด: เมื่อวาน <br>1 ไฟล์งาน</div>
+            </a>
+            
+            <a href="#" class="folder-card">
+                <div class="folder-icon">📁</div>
+                <div class="folder-name">คอมพิวเตอร์</div>
+                <div class="folder-info">0 ไฟล์งาน</div>
+            </a>
+            <a href="#" class="folder-card">
+                <div class="folder-icon">📁</div>
+                <div class="folder-name">ภาษาไทย</div>
+                <div class="folder-info">0 ไฟล์งาน</div>
+            </a>
+        </div>
+
+        <div class="section-title">🚀 โปรเจกต์และผลงาน</div>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="image/computer.avif" alt="Project 1" class="project-img">
+                <div class="project-content">
+                    <div class="project-title">เว็บไซต์โรงเรียนจำลอง</div>
+                    <div class="project-desc">พัฒนาเว็บไซต์ประชาสัมพันธ์ด้วย HTML/CSS</div>
+                    <span class="tag">Web Design</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="image/Science.avif" alt="Project 2" class="project-img">
+                <div class="project-content">
+                    <div class="project-title">โครงงานวิทยาศาสตร์</div>
+                    <div class="project-desc">การศึกษาการเจริญเติบโตของพืชในแสงต่างกัน</div>
+                    <span class="tag">Science</span>
+                </div>
+            </div>
+             
+             <div class="project-card">
+                <img src="image/English.avif" alt="Project 3" class="project-img">
+                <div class="project-content">
+                    <div class="project-title">สื่อการสอนภาษาอังกฤษ</div>
+                    <div class="project-desc">วิดีโอคลิปสั้นสอนคำศัพท์ในชีวิตประจำวัน</div>
+                    <span class="tag">Video Editing</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© <span id="year"></span> ณัฐดน พีรวิชากูล. All Rights Reserved.</p>
+        <p>ติดต่อ: <span id="email-contact" style="cursor:pointer; text-decoration:underline;">student@email.com</span> (คลิกเพื่อคัดลอก)</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
